@@ -1,0 +1,100 @@
+body
+{
+    background-image: url(Fon1.jpeg);
+    background-size: 90%;                   /* Стилізація фону сторінки */
+    background-attachment: fixed;
+}
+
+a
+{
+    color: teal;        /* Встановлення кольору для гіперпосилань */
+}
+
+.frame1
+{
+    margin-top: -10px;
+    width: 250px;
+    height: 1100px;
+    background-color: #1D1167;      /* Стилізація першого блоку, в який входять 2 інших (блоки фотографії та навичок) */
+    color: white;
+    position: absolute;
+    left: 400px;
+}
+
+.frame-img
+{
+    width: 250px;
+    height: 270px;
+    background-image: url(3x4.jpg);
+    background-size: 90%;               /* Встановлення розмірів блоку, відступів та фону відносно блока-батька для блока з фотографією */
+    margin-top: 50px;       
+    opacity: 0.9;
+}
+
+.frame2
+{
+    margin-top: 10px;
+    margin-left: 20px;      /* Встановлення розмірів блоку та відступів відносно блока-батька для блока навичок */
+    width: 200px;
+    height: 650px;
+}
+
+.frame3
+{
+    margin-top: -10px;
+    height: 1100px;
+    width: 900px;
+    position: absolute;                     /* Встановлення розміщення на сторінці відносно документа, розмірів та фону для блока із загальною інформацією */
+    left: 650px;
+    background-color: whitesmoke;
+}
+
+.frame4
+{
+    position: absolute;
+    top: 100px;                 /* Встановлення розміщення на сторінці відносно блока-батька для блока особи */
+    left: 300px;
+}
+
+.frame5
+{
+    position: absolute;
+    top: 350px;                 /* Встановлення розміщення на сторінці відносно блока-батька для блока проектів */
+    left: 300px;
+}
+
+.frame6
+{
+    position: absolute;
+    top: 550px;                 /* Встановлення розміщення на сторінці відносно блока-батька для блока досвіду роботи */
+    left: 300px;
+}
+            
+.frame7
+{
+    position: absolute;
+    top: 700px;                 /* Встановлення розміщення на сторінці відносно блока-батька для блока навчального закладу */
+    left: 300px;
+}
+
+.frame8
+{
+    position: absolute;
+    top: 870px;                 /* Встановлення розміщення на сторінці відносно блока-батька для блока знання мов */
+    left: 300px;
+}
+
+p
+{
+    margin-left: 40px;      /* Встановлення відступу з ліва для усіх параграфів */
+}
+
+.knute
+{
+    color: green;       /* Встановлення кольору для параграфа визначеного класом */
+}
+
+.none
+{
+    list-style-type: none;      /* Встановлення типу маркерів елементів ненумерованого списку */
+}

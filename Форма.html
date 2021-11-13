@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title> Форма </title>                      <!-- Встановлення кодування, назви сторінки та підключення css файлу-->
+        <link rel="stylesheet" href="opp.css">
+    </head>
+
+    <body class="form-body">
+
+        <div class="form-frame">    <!-- Блок для розміщення та стилізації форм -->
+
+            <form>
+                <hr>
+                <label for="user_Fname"> First Name: </label>
+                <input type="text" name="user_Fname" id="user_Fname"> 
+                <br> <br>                                                   <!-- Додавання полей для заповнення імені та прізвища -->
+                <label for="user_Lname"> Last Name: </label>
+                <input type="text" name="user_Lname" id="user_Lname">
+
+                <hr>
+                <input type="submit" value="Button tag">
+                <input type="submit" value="Input tag button type">     <!-- Додавання кнопок -->
+
+                <hr>
+                <select name="country">
+                    <option value="Japan"> Japan </option>
+                    <option value="Ukraine"> Ukraine </option>
+                    <option value="Russia"> Russia </option>        <!-- Додавання елемента управління, який має меню опцій -->
+                    <option value="USA"> USA </option>
+                    <option value="Germany"> Germany </option>
+                </select>
+
+                <hr>
+                <input type="radio" name="sex" value="Male"> Male
+                <br>                                                        <!-- Додавання кнопок-перемикачів з вибором однієї опції серед запропонованих -->
+                <input type="radio" name="sex" value="Female"> Female
+
+                <hr>
+                <input type="checkbox" name="bike" id="bike">
+                <label for="bike"> I have a bike </label>
+                <br>                                                <!-- Додавання елемента з вибором декількох опцій серед запропонованих -->
+                <input type="checkbox" name="car" id="car">
+                <label for="car"> I have a car </label>
+                <hr>
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
